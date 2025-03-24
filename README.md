@@ -181,17 +181,3 @@ You can deploy the backend on platforms such as Heroku, AWS, or Google Cloud. Fo
 Frontend Deployment
 You can deploy the frontend on platforms like Netlify, Vercel, or AWS S3. Both platforms offer easy integration with GitHub repositories for continuous deployment.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Author
-Your Name
-
-GitHub Portfolio
-
-Figma Portfolio
-
-This README.md file provides all the necessary information for setting up the project, using it, and understanding the application. Make sure to replace placeholders like your-username, your-jwt-secret, and your-figma-link with your actual information.
-
-
-
