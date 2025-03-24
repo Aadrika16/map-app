@@ -1,0 +1,29 @@
+/* MapView.css */
+
+/* Map container */
+.map-view-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Heading style */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the map (ensure it fills the screen) */
+  .leaflet-container {
+    width: 100%;
+    height: 100vh;  /* Takes up the full height of the viewport */
+  }
+  
+  /* Optional: Style for the popup text */
+  .leaflet-popup-content {
+    font-size: 16px;
+    color: #333;
+  }
+  

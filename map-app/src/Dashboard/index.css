@@ -1,0 +1,66 @@
+/* Dashboard.css */
+
+/* Dashboard container */
+.dashboard-container {
+    padding: 20px;
+    background-color: #E7C8E8;
+    height:100vh; 
+    display: flex; 
+    background-size: cover;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  @media  screen and (min-width:768px) { 
+    .dashboard-container{
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+  /* Header styles */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each item in the dashboard */
+  .dashboard-item {
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dashboard-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Item title */
+  .dashboard-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    margin: 0;
+  }
+  
+  /* Responsiveness for mobile view */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 15px;
+    }
+  
+    .dashboard-item {
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+  
